@@ -28,7 +28,7 @@ This generates two files :
 4.	Compile the C File: g++ lex.yy.c stock.tab.c -o stock
 5.	Run the Program with Input File: ./stock
 ## Output
-![Output](?raw=true)
+![Output](https://github.com/SakshiBiyani02/Stock-Ticker-Symbol-Validator-Using-Lex-and-Yacc/blob/main/Screenshot%202025-02-27%20191858.png?raw=true)
 ## Test cases explanation
 -	AAPL is valid because it adheres to the rule [A-Z]{1,5}: only uppercase letters and within the length limit.
 -	@pl is invalid because it contains an invalid character (@) and does not fit the [A-Z]{1,5} pattern.
